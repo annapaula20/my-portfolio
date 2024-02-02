@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Annapaula DeSouza</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
+</head>
+
+<body>
+  <!--Nav and Hero Section-->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <h1>&lt; Anna DeSouza | Web Developer / &gt;</h1>
+      <div class="navbar-header">
+        <!--menu hamburger solo per mobile-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"> </span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="hero-section">
+    <h2>
+      Hi, I&apos;m Anna!<br />
+      Let's <span>code</span> something <br class="effects"> cool
+    </h2>
+  </section>
+
+  <!--Portfolio-->
+  <section id="portfolio">
+    <div class="container-fluid">
+      <h3> My Portfolio</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/ping-pong.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Ping Pong Score Keeper</h4>
+              <p class="card-text">
+                An online scoreboard where the users can select how many rounds they are playing and keep track of when
+                each player scores. Once a player wins the game, the score board changes the color of the winners score
+                green and losers to red. The users are able to reset the score keeper to track a new round. Built with
+                Vanilla JavaScript, HTML, and CSS
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/budget-app.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Shopping Cart</h4>
+              <p class="card-text">
+                Application where user can add, remove, or change the quantity of clothing items from their shopping
+                cart.
+                Displays total and allows the user to view the monetary amount in different currencies. It was built
+                with Node js, React, HTML and CSS.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/unplugged-retreat.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Unplugged Retreat </h4>
+              <p class="card-text">
+                A work retreat company site that was the first "mobile-first" app I built with responsive CSS to provide
+                a positive viewing experience regardless of screen size. Bootstrap, Photoshop, Figma were the additional
+                tech used along with HTML and CSS.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/shopping-app.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Shopping App</h4>
+              <p class="card-text">
+                Application where user can add, remove, or change the quantity of clothing items from their shopping
+                cart.
+                It displays total and allows the user to view the monetary amount in different currencies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/doctor_card.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Stayhealthy</h4>
+              <p class="card-text">
+                Stayhealthy is a multi-page online medical care site. The user can browse doctors and book an online
+                appointment at their desired date and time. Once logged in, the user can view and download medical
+                reports and cancel appointments. I used Node.js as the framework, pulled doctor information from remote
+                datebases, and used Mongo DB to store the user sign-in, and login information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/rogue-pickings-thumbnail.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Restaurant Site</h4>
+              <p class="card-text">
+                I used HTML &amp; CSS to build a mock restaurant site from a photoshop design photo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/recipe-thumbnail.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Recipe Collection</h4>
+              <p class="card-text">
+                This project was one of of my first times I was able to put all the CSS learning into practice. As one
+                of my earlier projects, it really helped better my knowledge
+                of margins, paddings, and other css properties.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/magic-8-ball.png" alt="magic eight ball site" />
+            <div class="card-body">
+              <h4 class="card-title">Magic 8 Ball</h4>
+              <p class="card-text">
+                This was one of my first projects using vanilla JavaScript. The app prompts the user to ask a "yes or
+                no" question, and it uses the Math.random() method and functions to deliver 1 of 5 possible responses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/jubilee-thumbnail.png" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Jubilee Austen Project</h4>
+              <p class="card-text">
+                This was the first coding project I did! I used HTML and CSS to create a mock static
+                personal website.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <a href="https://github.com/annapaula20?tab=repositories">
+      <button type="button"> All Github Repos</button>
+    </a>
+  </section>
+
+  <!--About-->
+  <section id="about">
+    <div class="about-section">
+      <div class="about-heading">
+        <h3>About Me</h3>
+      </div>
+      <div class="container text-center">
+        <div class="about-content" class="row align-items-start">
+          <div class="col">
+            <h4> Hello! </h4>
+            <p>
+              I started dabbling with code around three years ago, when I took an beginners class to HTML and CSS. I
+              quickly
+              got hooked
+              on seeing my coding come alive on the screen, and I&apos;ve been coding ever since! Nothing gets me quite
+              as excited as finally finding the solution
+              to a code bug, or being able to troubleshoot an issue
+              on my own. I&apos;ve recently completed the IBM From-End Developer Course offered through Coursera, where
+              I gained experience in using RESTful APIs, IBM Cloud Server, and MongoDB with projects. My goal is to work
+              as either a front-end or full-stack
+              developer with a team that loves to create and
+              <span>code</span> as I do!
+            </p>
+            <p>
+              When I&apos;m not coding, you can find me learning how to crochet, reading, or
+              discovering new playlists on Spotify. Here is my current go-to playlist for when I&apos;m coding, or
+              learning new JavaScript frameworks.
+            </p>
+          </div>
+          <div class="col">
+            <div class="playlists">
+              <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1EQp62d3Dl7ECY?utm_source=generator" width="100%"
+                height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--SKILLS-->
+  <section id="skills">
+    <div class="content-wrapper">
+      <div class="skills-heading">
+        <h3>Skills</h3>
+      </div>
+      <div class="skills-content">
+        <img src="img/figma.png" alt="figma-icon" />
+        <h4>Figma</h4>
+      </div>
+      <div class="skills-content">
+        <img src="img/photoshop.png" alt="photoshop-icon" />
+        <h4>Photoshop</h4>
+      </div>
+
+      <div class="skills-content">
+        <img src="img/html.png" alt="html-icon" />
+        <h4>HTML</h4>
+      </div>
+      <div class="skills-content">
+        <img src="img/css.png" alt="css-icon" />
+        <h4>CSS</h4>
+      </div>
+      <div class="skills-content">
+        <img src="img/javascript.png" alt="javascript-icon" />
+        <h4>JavaScript</h4>
+      </div>
+      <div class="skills-content">
+        <img src="img/react.png" alt="react-icon" />
+        <h4>React Native</h4>
+      </div>
+      <div class="skills-content">
+        <img src="img/nodejs.png" alt="nodejs-icon" />
+        <h4>Nodejs</h4>
+      </div>
+    </div>
+  </section>
+  <!--FOOTER-->
+
+  <section id="contact">
+    <div class="full-width">
+      <h3>Let&apos;s Connect</h3>
+      <div class="contact-content">
+        <h4>Contact Me</h4>
+        <a class="center" href="mailto:annapaula.desouza1@gmail.com" target="_blank"><img src="img/email.png"
+            alt="envelope" /></a>
+      </div>
+      <div class="follow-me">
+        <h4>Follow Me</h4>
+        <ul>
+          <li id="socials">
+            <a href="https://github.com/annapaula20" target="_blank"><img src="img/github.png" alt="github logo" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/annapauladesouza/" target="_blank"><img src="img/linkedin.png"
+                alt="linkedin logo" /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <h5>
+      &copy; 2024 Annapaula DeSouza <span>|</span> Photos by Lukas Blazek,
+      The Creative Exchange &amp; Leone Venter on Unsplash
+      <span>|</span> Icons by Iconfinder
+    </h5>
+  </footer>
+</body>
+
+</html>

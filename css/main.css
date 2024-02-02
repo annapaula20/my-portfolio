@@ -1,0 +1,324 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #262541;
+}
+
+#portfolio,
+#about,
+#skills,
+#contact {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/********HEADER********/
+
+.navbar-inverse {
+  background: #90a291;
+  border: none;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-flow: row wrap;
+  height: auto;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 1.63em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #f2f3f4;
+  padding-top: 15px;
+  display: flex;
+  width: 50%;
+  justify-content: left;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #f2f3f4;
+  font-size: 1.63em;
+  padding-bottom: 1em;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+.hero-section {
+  background: url("../img/hero-header.png") center;
+  background-size: cover;
+  min-height: 500px;
+  overflow: auto;
+  margin: 0;
+}
+
+.hero-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 4.3em;
+  line-height: 100px;
+  color: #262541;
+  text-transform: uppercase;
+  padding: 1em .5em;
+  margin: 3em auto;
+}
+
+.hero-section h2 span {
+  color: #8c6327;
+}
+
+
+
+/********PORTFOLIO********/
+#portfolio {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  background-color: #c9a77e;
+  text-align: center;
+  display: block;
+}
+
+#portfolio h3 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0.9em;
+}
+
+.col-md-4 {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: beige;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+
+/**********ABOUT********/
+#about {
+  background: url("../img/about.png") center;
+  background-size: cover;
+  overflow: auto;
+}
+
+#about h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#about h4 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.5em;
+}
+
+#about p {
+  font-size: 20px;
+  color: #262541;
+  line-height: 30px;
+}
+
+#about p span {
+  color: #8c6327;
+  font-weight: bold;
+}
+
+.playlists {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/**********Skills********/
+
+#skills {
+  background: #c4abab;
+  overflow: auto;
+}
+
+.skills-content {
+  padding: 20px;
+}
+
+#skills h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+  color: #f2f3f4;
+  margin-top: 10px;
+  padding-bottom: 50px;
+}
+
+#skills h4 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  color: #f2f3f4;
+}
+
+/*********Connect*********/
+
+#contact {
+  background: url("../img/connect.png") center;
+  background-size: cover;
+  overflow: auto;
+}
+
+#contact h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#contact h4 {
+  font-size: 24px;
+  text-align: center;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+#contact ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+#contact ul li {
+  display: inline;
+  justify-content: center;
+}
+
+.contact-content {
+  padding: 20px;
+}
+
+/**********FOOTER********/
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #f2f3f4;
+  font-size: 16px;
+  text-transform: capitalize;
+  background: #90a291;
+  overflow: auto;
+}
+
+footer span {
+  font-size: 1em;
+}
+
+/**********MEDIA QUERIES********/
+@media only screen and (min-width: 1024px) {
+  #skills {
+    display: flex;
+    overflow: auto;
+  }
+
+  .skills-heading {
+    display: inline-table;
+    width: 100%;
+  }
+
+  .skills-content {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skills-content img {
+    display: inline-block;
+    justify-content: center;
+  }
+
+  .skills-content h4 {
+    font-size: 18px;
+  }
+
+  #contact {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .contact-content {
+    display: grid;
+    padding: 0 90px;
+    margin: 0 100px;
+    width: fit-content;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  #contact h3 {
+    text-align: center;
+    width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1;
+  }
+
+  .full-width {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  #contact a.center {
+    display: grid;
+    margin-left: 10px;
+    grid-row: 2;
+    grid-column: 1;
+    justify-content: center;
+  }
+
+  .follow-me {
+    display: grid;
+    width: fit-content;
+    padding: 0 50px 0 50px;
+    margin: 0 15px;
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .follow-me ul {
+    display: block;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+}
